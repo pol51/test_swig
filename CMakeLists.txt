@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 find_package(SWIG REQUIRED)
 include(${SWIG_USE_FILE})
 
+set(Python_ADDITIONAL_VERSIONS 2.7)
 find_package(PythonLibs)
 include_directories(${PYTHON_INCLUDE_PATH})
 
