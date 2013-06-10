@@ -1,4 +1,14 @@
-double var = 3.0;
+double _var = 3.0;
+
+double var()
+{
+  return _var;
+}
+
+void setVar(double v)
+{
+  _var = v;
+}
 
 int fact(int n)
 {
